@@ -1,0 +1,7 @@
+{
+  "name": "intelli-doc-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

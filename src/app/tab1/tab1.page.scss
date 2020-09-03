@@ -1,0 +1,46 @@
+.hidden {
+    display: none;
+}
+
+ion-col {
+    text-align: center;
+    font-size : 40px;
+
+    div {
+        font-size: 12px;
+    }
+}
+
+.delete-icon {
+    font-size  : 20px;
+    position   : absolute;
+    margin-left: -10px;
+    top        : 0;
+    color: #8b0000;
+}
+
+.file-icon {
+    font-size: 50px;
+}
+
+.add-more-icon {
+    font-size: 50px;
+}
+
+ion-title {
+    font-family: SFProMedium;
+}
+
+.file-selector {
+    color: #0033a1;
+}
+
+.loader {
+    position: absolute;
+    z-index: 999;
+    --ion-background-color: transparent;
+}
+.loaderImage{
+    position: relative;
+    top:35%;
+}

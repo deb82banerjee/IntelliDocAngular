@@ -1,0 +1,10 @@
+{
+    "/": {
+      "target": "http://intelligentdocprocessing-env-1.eba-bvpsfdb2.us-east-2.elasticbeanstalk.com/idp",
+      "secure": false,
+      "changeOrigin": true,
+      "pathRewrite": {
+        "^/idp": ""
+      }
+    }
+  }

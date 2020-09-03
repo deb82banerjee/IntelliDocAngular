@@ -1,0 +1,105 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import "~@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+@import '~@ionic/angular/css/display.css';
+
+/* Optional CSS utils that can be commented out */
+@import "~@ionic/angular/css/padding.css";
+@import "~@ionic/angular/css/float-elements.css";
+@import "~@ionic/angular/css/text-alignment.css";
+@import "~@ionic/angular/css/text-transformation.css";
+@import "~@ionic/angular/css/flex-utils.css";
+
+body.dark {
+    --ion-background-color  : #ffffff;
+    --ion-text-color        : #ffffff;
+    --ion-text-color-rgb    : 255, 255, 255;
+    --ion-toolbar-background: #0033a1;
+    --ion-item-background   : #0033a1;
+}
+
+
+.custom-alert .alert-wrapper {
+    font-family: SFProMedium;
+    --ion-text-color: #0033a1;
+}
+
+.custom-alert .alert-button-group {
+    border-top: 1px solid #a2a2a2;
+}
+
+.custom-alert .alert-button {
+    font-family: SFProMedium;
+    color: #0033a1;
+}
+
+.dark-red-text {
+    color: #8b0000;
+}
+
+.success-card {
+    font-family          : SFProRegular;
+    --ion-card-background: #F1F1F2;
+
+    ion-card-title {
+        color      : #265C00;
+        font-family: SFProMedium;
+    }
+
+    ion-card-content {
+        text-align: justify;
+
+        strong {
+            color: #021C1E;
+        }
+    }
+
+    .info-icon {
+        position : absolute;
+        right    : 10px;
+        top      : 10px;
+        font-size: 50px;
+        color    : #265C00;
+    }
+}
+
+.info-card {
+    font-family          : SFProRegular;
+    --ion-card-background: #F1F1F2;
+
+    ion-card-title {
+        color      : #0033a1;
+        font-family: SFProMedium;
+    }
+
+    ion-card-content {
+        text-align: justify;
+
+        a, strong {
+            color: #0033a1;
+        }
+    }
+
+    .info-icon {
+        position : absolute;
+        right    : 10px;
+        top      : 10px;
+        font-size: 50px;
+        color    : #BCBABE;
+    }
+}

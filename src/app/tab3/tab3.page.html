@@ -1,0 +1,40 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Inbox
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<!-- <ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Tab 3</ion-title>
+    </ion-toolbar>
+  </ion-header>
+</ion-content> -->
+<ion-content>
+  <table style="color:black">
+    <tr>
+      <td>First Name</td>
+      <td>{{customerSvc.customer?.firstName}}</td>
+    </tr>
+    <tr>
+      <td>Middle Name</td>
+      <td>{{customerSvc.customer?.middleName}}</td>
+    </tr>
+    <tr>
+      <td>Last Name</td>
+      <td>{{customerSvc.customer?.lastName}}</td>
+    </tr>
+    <tr>
+      <td>DOB</td>
+      <td>{{customerSvc.customer?.dob}}</td>
+    </tr>
+    <tr>
+      <td>Address</td>
+      <td>{{customerSvc.customer?.address}}</td>
+    </tr>
+  </table>
+  <ion-button expand="block" color="secondary">Validate</ion-button>
+</ion-content>
